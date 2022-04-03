@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&amp;display=swap"
+          rel="stylesheet">
+    <title>Jan Šuráň - webovka</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+<img id="background" src="images/background.jpg" alt="Bradavice"/>
+<div id="content">
+    <div id="header" class="center">
+        <span class="header-item">
+            <a href="index.html">Index</a>
+        </span>
+        <span class="header-item">
+            <a href="postavy.html">Hlavní postavy</a>
+        </span>
+    </div>
+    <h1 id="main-header" class="center">
+        <u> Má webovka</u>
+    </h1>
+    <div id="movies-list-with-photo">
+        <div>
+            <h2>Seznam filmových dílů</h2>
+            <ol>
+                <li>Harry Potter a kámen mudrců (2001)</li>
+                <li>Harry Potter a tajemná komnata (2002)</li>
+                <li>Harry Potter a vězeň z Azkabanu (2004)</li>
+                <li>Harry Potter a ohnivý pohár (2005)</li>
+                <li>Harry Potter a fénixův řád (2007)</li>
+                <li>Harry Potter a princ dvojí krve (2009)</li>
+                <li>Harry Potter a relikvie smrti
+                    <ul>
+                        <li>1. část (2010)</li>
+                        <li>2. část (2011)</li>
+                    </ul>
+                </li>
+            </ol>
+            <span>
+            Kompletní seznam na
+            <a href="https://cs.wikipedia.org/wiki/Harry_Potter_(filmov%C3%A1_s%C3%A9rie)"
+               target="_blank">
+                Wikipedii
+            </a>
+            </span>
+        </div>
+        <img src="images/harry-potter-index-img.jpg" alt="obrázek Harryho Pottera" id="index-hp-img">
+    </div>
+    <h4>Informace o hlavních postavách naleznete na
+        <a href="postavy.html">této stránce</a>
+    </h4>
+    <div class="center" id="bottom-index-grid">
+        <img src="images/goblet-of-fire.jpg" alt="ohnivý pohár" id="ohnivy-pohar-img">
+        <p>Kontaktuj mě!</p>
+        <div id="form">
+            <div style="grid-area: jmeno-label">Jméno</div>
+            <label>
+                <input style="grid-area: jmeno-textarea"/>
+            </label>
+            <div style="grid-area: email-label">E-mail</div>
+            <label>
+                <input style="grid-area: email-textarea"/>
+            </label>
+            <div style="grid-area: email-text-label">Zpráva</div>
+            <label>
+                <textarea id="email-text-textarea"></textarea>
+            </label>
+            <button style="grid-area: email-send-button" id="send-button">
+                Odeslat
+            </button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<!--
+<?php
+
+     function f (){
+         echo "<a href=\"google.com\">
+pepega </a>";
+}
+
+for($i = 0; $i < 10; $i++){
+f();
+}
+
+$s =
+"<form method=\"post\" action=\"mailto:suran@gchd.cz\">
+    <label for=\"name\">E-mail:</label> <br>
+    <label type=\"text\""
+           ?>
+
+        "Hello World!"
+-->

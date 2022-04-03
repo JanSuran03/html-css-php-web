@@ -1,0 +1,69 @@
+#ohnivy-pohar-img {
+    width: 400px;
+    border: 10px ridge beige;
+    border-radius: 4px;
+    box-shadow: none;
+}
+
+#background {
+    height: 100vh;
+    left: 0;
+    opacity: 0.25;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: -1;
+}
+
+#content #movies-list-with-photo {
+    display: flex;
+    gap: 60px;
+    margin: 16px;
+}
+
+#content #movies-list-with-photo #index-hp-img {
+    border-radius: 6px;
+    box-shadow: 0 0 6px 6px rgba(90, 90, 120, 40%);
+    width: min(450px, 30vw);
+}
+
+#bottom-index-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bottom-index-grid #ohnivy-pohar-img {
+    align-self: center;
+}
+
+#form {
+    display: grid;
+    grid-template-areas: "jmeno-label jmeno-textarea"
+    "email-label email-textarea"
+    "email-text-label email-textarea"
+    "email-send-button email-send-button";
+    padding: 4px;
+    border: 1px solid #a39600;
+    row-gap: 4px;
+    column-gap: 16px;
+}
+
+#form *:nth-child(odd) {
+    justify-self: left;
+    margin-left: 6px;
+}
+
+#form *:nth-child(even) {
+    justify-self: right;
+    margin-right: 6px;
+}
+
+#form #email-text-textarea {
+    max-width: 300px;
+    max-height: 200px;
+}
+
+#form #send-button {
+    justify-self: center;
+}

@@ -1,0 +1,19 @@
+body {
+    background: hsl(160, 100%, 92%);
+}
+
+table {
+    border: 1px solid black;
+}
+
+table tr {
+    border: 2px solid red;
+}
+
+table tr td, table tr th{
+    border: 1px solid aqua;
+}
+
+#obrazek-hrdinu{
+    width: min(80vw, 800px);
+}
